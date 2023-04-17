@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class MyThemeData {
   static const Color lightColor = Color(0xFFB7935F);
@@ -12,11 +13,11 @@ class MyThemeData {
         unselectedItemColor: Colors.white,
       ),
       textTheme: TextTheme(
-        bodySmall: TextStyle(
+        bodySmall: GoogleFonts.elMessiri(
             fontSize: 20, fontWeight: FontWeight.w600, color: lightColor),
-        bodyMedium: TextStyle(
+        bodyMedium: GoogleFonts.elMessiri(
             fontSize: 25, fontWeight: FontWeight.bold, color: lightColor),
-        bodyLarge: TextStyle(
+        bodyLarge: GoogleFonts.elMessiri(
             fontSize: 30, fontWeight: FontWeight.bold, color: Colors.black),
       ),
       appBarTheme: AppBarTheme(
