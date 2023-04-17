@@ -52,8 +52,8 @@ class _SuraContentState extends State<SuraContent> {
                   separatorBuilder: (context, index) => Divider(
                     thickness: 1,
                     color: Theme.of(context).primaryColor,
-                    indent: 40,
-                    endIndent: 40,
+                    indent: 42,
+                    endIndent: 42,
                   ),
                   itemBuilder: (context, index) {
                     return Center(
