@@ -5,6 +5,7 @@ class SebhaTab extends StatefulWidget {
   State<SebhaTab> createState() => _SebhaScreenState();
 }
 int numOfTasbeh = 0;
+
 int typeOfTasbehIndex = 0;
 List<String> typeOfTasbeh = ["سبحان الله","الحمد لله","لا إله إلا الله","لا حول ولا قوة إلا بالله","الله أكبر"];
 class _SebhaScreenState extends State<SebhaTab> {
